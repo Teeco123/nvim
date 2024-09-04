@@ -13,6 +13,11 @@ return {
     end,
   },
 
+{
+    'IogaMaster/neocord',
+    event = "VeryLazy"
+},
+
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
