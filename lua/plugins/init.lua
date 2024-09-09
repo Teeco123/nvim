@@ -13,10 +13,15 @@ return {
     end,
   },
 
-{
+  {
     'IogaMaster/neocord',
     event = "VeryLazy"
-},
+  },
+
+  {
+    'rust-lang/rust.vim',
+    event = "VeryLazy"
+  },
 
   {
     "nvim-treesitter/nvim-treesitter",
@@ -31,6 +36,7 @@ return {
         "typescript",
         "javascript",
         "zig",
+        "rust",
       },
     },
   },
