@@ -2,6 +2,7 @@ local options = {
   formatters_by_ft = {
     css = { "prettier" },
     html = { "prettier" },
+    C = { "clang-format"},
   },
 
   format_on_save = {
