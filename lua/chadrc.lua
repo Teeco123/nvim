@@ -2,26 +2,40 @@
 -- https://github.com/NvChad/ui/blob/v2.5/lua/nvconfig.lua
 
 ---@type ChadrcConfig
-local M = {}
+local M = {
 
-M.ui = {
-  statusline = {
-    theme = "minimal",
-    separator_style = "round",
+  ui = {
+    statusline = {
+      theme = "minimal",
+      separator_style = "round",
+    },
   },
 
   nvdash = {
     load_on_startup = true,
+    header = {
+      "                            ",
+      "     ▄▄         ▄ ▄▄▄▄▄▄▄   ",
+      "   ▄▀███▄     ▄██ █████▀    ",
+      "   ██▄▀███▄   ███           ",
+      "   ███  ▀███▄ ███           ",
+      "   ███    ▀██ ███           ",
+      "   ███      ▀ ███           ",
+      "   ▀██ █████▄▀█▀▄██████▄    ",
+      "     ▀ ▀▀▀▀▀▀▀ ▀▀▀▀▀▀▀▀▀▀   ",
+      "                            ",
+      "     Powered By  eovim    ",
+      "                            ",
+    },
+  },
+
+  base46 = {
+    theme = "chadracula-evondev",
+
+    -- hl_override = {
+    -- 	Comment = { italic = true },
+    -- 	["@comment"] = { italic = true },
+    -- },
   },
 }
-
-M.base46 = {
-  theme = "chadracula-evondev",
-
-  -- hl_override = {
-  -- 	Comment = { italic = true },
-  -- 	["@comment"] = { italic = true },
-  -- },
-}
-
 return M

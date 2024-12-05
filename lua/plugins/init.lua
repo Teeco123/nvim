@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    event = "BufWritePre", -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -14,29 +14,30 @@ return {
   },
 
   {
-    'IogaMaster/neocord',
-    event = "VeryLazy"
+    "IogaMaster/neocord",
+    event = "VeryLazy",
   },
 
   {
-    'rust-lang/rust.vim',
-    event = "VeryLazy"
+    "rust-lang/rust.vim",
+    event = "VeryLazy",
   },
 
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
-        "c",
-        "c_sharp",
-        "svelte",
         "html",
         "css",
+        "c",
+        "svelte",
         "lua",
         "typescript",
         "javascript",
         "zig",
         "rust",
+        "python",
+        "swift",
       },
     },
   },
