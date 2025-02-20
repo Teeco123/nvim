@@ -9,6 +9,7 @@ local options = {
     rust = { "rustfmt" },
     python = { "black" },
     swift = { "swift_format" },
+    cs = { "csharpier" },
   },
 
   formatters = {

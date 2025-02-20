@@ -22,6 +22,14 @@ return {
     "rust-lang/rust.vim",
     event = "VeryLazy",
   },
+  {
+    "seblj/roslyn.nvim",
+    ft = "cs",
+    event = "VeryLazy",
+    opts = {
+      -- your configuration comes here; leave empty for default settings
+    },
+  },
 
   {
     "nvim-treesitter/nvim-treesitter",
@@ -38,6 +46,7 @@ return {
         "rust",
         "python",
         "swift",
+        "c_sharp",
       },
     },
   },
