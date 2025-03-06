@@ -12,7 +12,6 @@ local options = {
     rust = { "rustfmt" },
     python = { "isort", "black" },
     swift = { "swift_format", "swiftformat", "swiftlint" },
-    cs = { "csharpier" },
     go = { "gofmt", "goimports", "golines" },
   },
 
