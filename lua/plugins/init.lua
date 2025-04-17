@@ -23,6 +23,8 @@ return {
     event = "VeryLazy",
   },
 
+  { "typicode/bg.nvim", lazy = false },
+
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
