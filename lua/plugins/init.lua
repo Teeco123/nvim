@@ -23,7 +23,10 @@ return {
     event = "VeryLazy",
   },
 
-  { "typicode/bg.nvim", lazy = false },
+  {
+    "xiyaowong/transparent.nvim",
+    lazy = false,
+  },
 
   {
     "nvim-treesitter/nvim-treesitter",
