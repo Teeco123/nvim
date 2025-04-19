@@ -6,8 +6,8 @@ local M = {
 
   ui = {
     statusline = {
-      theme = "minimal",
-      separator_style = "round",
+      theme = "default",
+      separator_style = "default",
     },
   },
 
@@ -31,11 +31,7 @@ local M = {
 
   base46 = {
     theme = "chadracula-evondev",
-
-    -- hl_override = {
-    -- 	Comment = { italic = true },
-    -- 	["@comment"] = { italic = true },
-    -- },
+    transparency = true,
   },
 }
 return M

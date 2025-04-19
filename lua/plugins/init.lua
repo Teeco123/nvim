@@ -24,11 +24,6 @@ return {
   },
 
   {
-    "xiyaowong/transparent.nvim",
-    lazy = false,
-  },
-
-  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
