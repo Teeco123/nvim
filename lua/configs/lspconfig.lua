@@ -2,8 +2,6 @@ local lspconfig = require "lspconfig"
 
 -- EXAMPLE
 local servers = {
-  "html",
-  "cssls",
   "ts_ls",
   "svelte",
   "clangd",
